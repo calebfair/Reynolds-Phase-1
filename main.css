@@ -1,0 +1,614 @@
+/* General Styling */
+body {
+	margin: 0;
+}
+p, h1, h2, h3, h4, h5 {
+	font-family: 'Lato', sans-serif;
+	font-weight: normal;
+	color:rgb(10,10,10);
+}
+.section-header {
+	font-family: 'Slabo 27px', serif;
+	text-align: center;
+}
+.honda-packages-mobile, .mobile-guider, .mobile-intro, .mobile-footer {
+	display: none;
+}
+/* General Sizing of Divs */
+.container {
+	width: 100%;
+}
+header, footer {
+	width: 90%;
+	padding: 0 5%;
+}
+.button {
+	background-color: rgb(241,92,62);
+}
+/* Formatting of Header divs*/
+.half-width {
+	width: 49.5%;
+	display: inline-block;
+	height: 3rem;
+	padding: .25rem 0;
+	vertical-align: top;
+}
+/* Formatting of Footer Divs */
+.fourty-width, .twenty-width {
+	display: inline-block;
+	height: 100px;
+	padding: 25px 0;
+	vertical-align: top;
+}
+.fourty-width {
+	width: 49%;
+}
+.twenty-width {
+	width: 25%;
+}
+/* Add Logos as background images to Divs */
+#honda-logo-header {
+	background: url('Images/honda-logo.png') center no-repeat;
+}
+#honda-logo-footer {
+	background: url('Images/honda-logo-foot-desktop.png') center no-repeat;
+}
+#naked-lime-logo-header {
+	background: url('Images/nakedlime-logo-desktop.png') center center no-repeat;
+}
+#naked-lime-logo-footer {
+	background: url('Images/nakedlime-logo-white.png') center center no-repeat;
+}
+#social-media-logo {
+	background: url('Images/social-logo.png') center no-repeat;
+}
+/* Check-mark background images for Table */
+.has-check {
+	background: url('Images/check.png') center no-repeat;
+}
+
+
+
+
+
+/* Header Styling */
+/* Spacial Specifications */
+header {
+	height: 3.5rem;
+	background: rgba(255,255,255,.9);
+	position: fixed;
+	top: 0;
+	z-index: 999;
+}
+.inner-section, .outer-section {
+	display: inline-block;
+	vertical-align: top;
+	height: 3rem;
+}
+.outer-section {
+	width: 35%;
+}
+.inner-section {
+	width: 63%;
+}
+.border-right {
+	border-right: 2px solid rgb(200,200,200);
+}
+/* Font formatting */
+header h3 {
+	margin: .5rem 0;
+	font-size: .8rem;
+	text-align: center;
+}
+
+
+
+
+
+/* Landing Section Styling */
+.landing-section {
+	height: 90vh;
+	max-height: 1036px;
+	background: url('Images/hero.jpg') center no-repeat;
+	padding: 0 10%;
+	width: 80%;
+	color: rgb(10,10,10);
+}
+#landing-header {
+	width: 45%;
+	padding: 7vh 40% 20vh 15%;
+}
+#landing-header h1 {
+	font-size: 2.25rem;
+	text-align: left;
+}
+#option-container {
+	position: absolute;
+	top: 65vh;
+	width: 80%;
+}
+.option-button {
+	display: inline-block;
+	width: 20%;
+	margin: 0 1%;
+	border: 2px solid white;
+	border-radius: 1px;
+	padding: 5px .5%;
+}
+.option {
+	font-size: 1.5rem;
+	font-family: 'Slabo 27px', sans-serif;
+	color: white;
+	text-align: center;
+	margin: 0;
+}
+.option-price {
+	font-size: 1.75rem;
+}
+
+
+
+
+
+/* Why Naked Lime Styling */
+.why-naked-lime {
+	background: url('Images/brushed_steel.png') center no-repeat;
+	padding: 0 10%;
+	width: 80%;
+}
+.why-naked-lime .section-header {
+	padding: 50px 0 0 0;
+	margin: 0 0 50px 0;
+	color: white;
+	font-weight: bold;
+}
+.why-naked-lime .container-p {
+	padding: 0 5% 60px 5%;
+	margin: 60px 0 0 0;
+	width: 90%;
+	color: rgb(10,10,10);
+}
+.why-naked-lime p {
+	line-height: 2;
+}
+
+
+
+
+
+/* Honda Exclusive Packages Styling */
+.honda-packages {
+	background: url('Images/green_pattern_fill.jpg') center no-repeat;
+}
+#left {
+	float: left;
+}
+#right {
+	float: right;
+}
+.container-has-margins {
+	margin: 0 7.5%;
+	background-color: white;
+	padding-bottom: 75px;
+}
+.honda-packages .section-header {
+	margin: 0;
+	padding: 100px 0 50px 0;
+	font-weight: bold;
+	color: rgb(0,153,51);
+	font-size: 3rem;
+}
+.honda-packages .italics {
+	font-style:italic;
+	font-size: 10px;
+	margin: 1rem calc(5% + 2rem);
+	margin-bottom: 0;
+}
+/* Table formatting */
+table {
+	border-collapse: collapse;
+	width: 90%;
+	margin: 0 5%;
+	margin-bottom: 2rem;
+}
+table .header {
+	font-size: 1.4rem;
+	height: 2.5rem;
+}
+.first-col {
+	min-width: 20rem;
+}
+#column-2, #column-3, #column-4, #column-5 {
+	width: 15%;
+}
+td:first-child {
+	padding: 0 2rem
+}
+/* Table Background Coloring */
+tr:nth-child(odd) {
+	background-color: rgb(225,240,153);
+} 
+tr:nth-child(even) {
+	background-color: rgb(255,255,230);
+}
+tr:nth-child(1), tr:nth-child(2), tr .first-col {
+	background-color: white;
+}
+/* Table border formatting */
+th.not-empty {
+	border: 2px solid rgb(225,240,153);
+}
+.row-1 .header {
+	border-top: 4px solid rgb(75,75,75);
+}
+#column-3 {
+	border-right: 4px solid rgb(75,75,75);
+}
+#column-2, #column-4 {
+	border-right: 2px solid white;
+}
+tr:nth-child(n+3) {
+	border-bottom: 1px solid rgb(200,200,200);
+}
+/* Table font formatting */
+tr:nth-child(n+3) p, tr:nth-child(n+3) li  {
+	color: rgb(75,75,75);
+}
+th .option {
+	color: black;
+	font-size: 1.25rem
+}
+th .option-price {
+	font-size: 1.75rem;
+}
+table .center {
+	text-align: center;
+}
+span.bold {
+	font-weight: bold;
+	color: black;
+}
+
+
+
+
+
+/* Next Steps Section Styling */
+/* Spacing Specifications */
+.next-steps {
+	background-color: rgb(89,89,89);
+	padding: 100px 10% 50px 10%;
+	width: 80%;
+}
+#getting-started {
+	display: inline-block;
+	width: 61%;
+	padding-right: 5%;
+	padding-bottom: 75px;
+	border-right: 2px solid rgb(60,60,60);
+}
+#contact {
+	display: inline-block;
+	width: 28%;
+	padding-left: 5%;
+	vertical-align: top;
+}
+.next-steps .section-header {
+	margin: 0;
+	color: rgb(136,204,0);
+	text-align: left;
+	font-size: 20px;
+}
+/* Font Specifications */
+.next-steps .italics {
+	font-style: italic;
+	font-size: 12px;
+}
+.next-steps p, a {
+	color: white;
+	font-size: 14px;
+}
+/* Form Styling */
+input, textarea {
+	display: block;
+	width: calc(100% - 20px);
+	margin: 15px 0;
+	padding: 10px;
+	background-color: rgb(35,35,35);
+	color: white;
+	border: none;
+}
+input::placeholder, textarea {
+	color: rgb(125,125,125);
+	font-style: italic;
+}
+input:required::placeholder{
+	font-weight: bold;
+}
+input[type="submit"] {
+	padding: 15px 0;
+	width: 20%;
+	margin: 25px 40% 0 40%;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-family: 'Slabo 27px', serif;
+}
+
+
+
+
+
+/* Footer Styling*/
+footer {
+	height: 150px;
+	background-color: black;
+	padding: 0 10%;
+	width: 80%;
+}
+footer p {
+	text-align: center;
+	color: white;
+	font-size: 10px;
+	vertical-align: middle;
+	margin: 0;
+	line-height: 100px;
+}
+.float-right {
+	float: right;
+}
+.float-left {
+	float: left;
+}
+
+
+
+
+/* Formatting for screen size < 1100px */
+@media only screen and (max-width: 1100px) {
+	#option-container {
+		width: 65%;
+		margin-left: 7.5%;
+	}
+	th .option {
+		color: black;
+		font-size: 1rem
+	}
+	th .option-price {
+		font-size: 1.5rem;
+	}
+}
+@media only screen and (max-width: 930px) {
+	#option-container {
+		width: 80%;
+		margin-left:0;
+	}
+}
+/* Mobile Formatting */
+@media screen and (max-width: 860px) {
+	/* Hiding/revealing sections from desktop/mobile */
+	.guider-mobile, .honda-packages-mobile, .mobile-footer {
+		display: block;
+	}
+	#option-container, .why-naked-lime, .honda-packages, #getting-started .desktop-intro, #contact, .desktop-footer {
+		display: none;
+	}
+	/* Changing styling for header */
+	header {
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		height: auto;
+		background: none;
+	}
+	header .half-width {
+		display: block;
+		width: 100%;
+		height: 40px;
+		padding: 10px 0 5px 0;
+	}
+	header h3 {
+		margin: 0;
+		color: white;
+	}
+	.inner-section, .outer-section {
+		display: inline-block;
+		width: 40%;
+		padding: 0 4.5%;
+		min-height: 40px;
+	}
+	.border-right {
+		height: 100%;
+		border-right: black solid 1px;
+	}
+	#mobile-top-header {
+		background-color: rgba(80,162,70,.95);
+	}
+	#mobile-top-header .border-right {
+		border: none;
+	}
+	#mobile-bottom-header {
+		background-color: rgba(255,255,255,.95);
+		height: 50px;
+	}
+	/* changing Logos in Header and Footer */
+	#honda-logo-footer {
+		background: url('Images/honda-logo-foot.png') center no-repeat;
+	}
+	#naked-lime-logo-header {
+		background: url('Images/nakedlime-logo-header.png') center center no-repeat;
+	}
+	#naked-lime-logo-footer {
+		background: url('Images/nakedlime-logo-white.png') center center no-repeat;
+	}
+	/* Formatting guiding buttons/directions */
+	.mobile-guider {
+		display: block;
+		clear: both;
+		text-align: center;
+		position: absolute;
+		margin-bottom: -1vh;
+		bottom: 0;
+		width: 100%;
+	}
+	.mobile-guider .button {
+		display: inline-block;
+		text-align: center;
+		padding: 1vw;
+		padding-bottom: 4vw;
+		border-radius: 3px;
+		font-size: 3vw;
+		color: white;
+		margin: 0;
+	}
+	/* Styling of landing section for mobile */
+	.landing-section {
+		padding: 0;
+		width: 100%;
+		background: url('Images/hero-mobile.jpg') center no-repeat;
+		background-size: cover;
+		height: 75vh;
+		overflow: hidden;
+		position: relative;
+	}
+	#landing-header {
+		width: 80%;
+		padding: 40vh 10% 0 10%;
+	}
+	#landing-header .section-header {
+		font-size: 7vw;
+		text-align: center;
+		color: white;
+	}
+	/* Styling of Honda Packages section for mobile */
+	/* Replaces option listing in Landing section and table */
+	.honda-packages-mobile {
+		height: 80vh;
+		overflow: hidden;
+		position: relative;
+	}
+	.honda-packages-mobile .header {
+		margin: 8vh 0 5vh 0;
+	}
+	.honda-packages-mobile .section-header {
+		font-size: 6vw;
+	}
+	.honda-packages-mobile .section-sub-header {
+		font-size: 3.5vw;
+	}
+	.honda-packages-mobile .section-header, .honda-packages-mobile .section-sub-header {
+		color: rgb(80,162,70);
+		text-align: center;
+		font-weight: bold;
+		margin: 0;
+	}
+	.package-description h2, .package-button {
+		display: inline-block;
+	}
+	.package-description {
+		background-color: rgb(57,109,146);
+		margin-bottom: 4px;
+		height: 9vh;
+	}
+	.package-description h2 {
+		padding-left: 5%;
+		line-height: 8.5vh;
+		font-size: 6vw;
+		font-weight: bold;
+	}
+	.package-description .option-price {
+		font-size: 10vw;
+	}
+	.honda-packages-mobile .package-button {
+		width: 20%;
+		float: right;
+		height: 9vh;
+		margin-bottom: 4px;
+	}
+	.package-button h1 {
+		color: white;
+		margin: auto;
+		font-size: 3rem;
+		text-align: center;
+		line-height: 9vh;
+	}
+	/* formatting of Next Steps section for mobile */
+	.next-steps {
+		padding: 5vh 5%;
+		width: 90%;
+	}
+	#getting-started {
+		border: none;
+		width: 100%;
+	}
+	.mobile-intro {
+		display: block;
+		text-align: center;
+		line-height: 1;
+		margin-bottom: 8vh;
+	}
+	.mobile-intro h2 {
+		font-size: 5vw;
+		color: white;
+		margin: 0;
+	}
+	.mobile-intro p {
+		font-size: 4vw;
+		margin: .5rem 0 1rem 0;
+	}
+	input::placeholder, textarea {
+		font-size: .85rem;
+	}
+	/* Formatting of footer for mobile */
+	footer {
+		height: auto;
+		background-color: rgb(33,35,34);
+	}
+	footer .twenty-width, footer .fourty-width {
+		width: 80%;
+		height: 5vh;
+		padding: 2.5vh 10%;
+	}
+	.float-right, .float-left {
+		float: none;
+	}
+	footer p {
+		line-height: 1.5;
+		font-size: 2vw;
+	}
+	input[type="submit"] {
+		font-size: 3vw;
+	}
+}
+
+@media only screen and (max-width: 450px) {
+	header .half-width {
+		height: 30px;
+		padding: 5px 0;
+	}
+	#mobile-bottom-header {
+		height: 40px;
+	}
+	header h3 {
+		font-size: .8rem;
+	}
+	header #naked-lime-logo-header {
+		min-height:30px;
+	}
+	.mobile-guider .guider-button {
+		font-size: 5vw;
+		padding: 2vw;
+		padding-bottom: 4vw;
+	}
+	input[type="submit"] {
+		width: 30%;
+		margin: 25px 35% 0 35%;
+		font-size: 5vw;
+	}
+	footer p {
+		font-size: 3vw;
+	}
+}
+
+
+
+
